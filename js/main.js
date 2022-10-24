@@ -13,16 +13,17 @@ for (let i = 1; i <= 100; i++) {
         item.classList.add("fizzbuzz");
         item.innerHTML = "fizzbuzz";
         console.log("fizzbuzz");
-    //Creo per i multipli di 3 l'item "fizz" e lo stampo in console
+        //Creo per i multipli di 3 l'item "fizz" e lo stampo in console
     } else if ( i % 3 === 0 ) {
         item.classList.add("fizz");
         item.innerHTML = "fizz";
         console.log("fizz");
-    //Creo per i multipli di 5 l'item "buzz" e lo stampo in console
+        //Creo per i multipli di 5 l'item "buzz" e lo stampo in console
     } else if ( i % 5 === 0 ) {
         item.classList.add("Buzz");
         item.innerHTML = "Buzz";
         console.log("Buzz");
+        //Creo la condizione per inserire i numeri e stampo i risultati nella console
     } else {
         console.log(i);
         item.innerHTML = i;
