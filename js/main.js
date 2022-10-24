@@ -8,7 +8,6 @@ for (let i = 1; i <= 100; i++) {
     const item = document.createElement("li");
     //Aggiunto classe item
     item.classList.add("item");
-    console.log(i);
     //Per i multipli di 3 e di 5 stampo, in console, la stringa "fizzbuzz"
     if ( i % 3 === 0 && i % 5 === 0 ) {
         item.classList.add("fizzbuzz");
@@ -20,6 +19,8 @@ for (let i = 1; i <= 100; i++) {
     //Creo per i multipli di 5 l'item "buzz" e lo stampo in console
     } else if ( i % 5 === 0 ) {
         item.classList.add("Buzz");
-        console.log("fizz");
+        console.log("Buzz");
+    } else {
+        console.log(i);
     }
 }
